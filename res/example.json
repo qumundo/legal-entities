@@ -399,13 +399,13 @@
 	},
 	"lei/rr/search?db=period": {
 		"items": [
-			{ "key": "startNode", "field": "lei_rr_period.start_node", "type": "string" },
-			{ "key": "endNode", "field": "lei_rr_period.end_node", "type": "string" },
-			{ "key": "minStart", "field": "lei_rr_period.start_date", "type": "date" },
-			{ "key": "maxStart", "field": "lei_rr_period.start_date", "type": "date" },
-			{ "key": "minEnd", "field": "lei_rr_period.end_date", "type": "date" },
-			{ "key": "maxEnd", "field": "lei_rr_period.end_date", "type": "date" },
-			{ "key": "periodType", "field": "lei_rr_period.period_type", "type": "string" }
+			{ "key": "startNode", "field": "start_node", "type": "string" },
+			{ "key": "endNode", "field": "end_node", "type": "string" },
+			{ "key": "minStart", "field": "start_date", "type": "date" },
+			{ "key": "maxStart", "field": "start_date", "type": "date" },
+			{ "key": "minEnd", "field": "end_date", "type": "date" },
+			{ "key": "maxEnd", "field": "end_date", "type": "date" },
+			{ "key": "periodType", "field": "period_type", "type": "string" }
 		],
 		"200": {
 			"status": 200,
@@ -439,10 +439,10 @@
 	},
 	"lei/rr/search?db=qualifier": {
 		"items": [
-			{ "key": "startNode", "field": "lei_rr_qualifier.start_node", "type": "string" },
-			{ "key": "endNode", "field": "lei_rr_qualifier.end_node", "type": "string" },
-			{ "key": "dimension", "field": "lei_rr_qualifier.dimension", "type": "string" },
-			{ "key": "category", "field": "lei_rr_qualifier.category", "type": "string" }
+			{ "key": "startNode", "field": "start_node", "type": "string" },
+			{ "key": "endNode", "field": "end_node", "type": "string" },
+			{ "key": "dimension", "field": "dimension", "type": "string" },
+			{ "key": "category", "field": "category", "type": "string" }
 		],
 		"200": {
 			"status": 200,
@@ -467,12 +467,12 @@
 	},
 	"lei/rr/search?db=quantifier": {
 		"items": [
-			{ "key": "startNode", "field": "lei_rr_quantifier.start_node", "type": "string" },
-			{ "key": "endNode", "field": "lei_rr_quantifier.end_node", "type": "string" },
-			{ "key": "measurementMethod", "field": "lei_rr_quantifier.measurement_method", "type": "string" },
-			{ "key": "minAmount", "field": "lei_rr_quantifier.amount", "type": "number" },
-			{ "key": "maxAmount", "field": "lei_rr_quantifier.amount", "type": "number" },
-			{ "key": "unit", "field": "lei_rr_quantifier.unit", "type": "string" }
+			{ "key": "startNode", "field": "start_node", "type": "string" },
+			{ "key": "endNode", "field": "end_node", "type": "string" },
+			{ "key": "measurementMethod", "field": "measurement_method", "type": "string" },
+			{ "key": "minAmount", "field": "amount", "type": "number" },
+			{ "key": "maxAmount", "field": "amount", "type": "number" },
+			{ "key": "unit", "field": "unit", "type": "string" }
 		],
 		"200": {
 			"status": 200,
@@ -498,10 +498,10 @@
 	},
 	"lei/rr/search?db=repex": {
 		"items": [
-			{ "key": "lei", "field": "lei_repex.lei", "type": "string" },
-			{ "key": "category", "field": "lei_repex.category", "type": "string" },
-			{ "key": "reason", "field": "lei_repex.reason", "type": "string" },
-			{ "key": "reference", "field": "lei_repex.reference", "type": "string" }
+			{ "key": "lei", "field": "lei", "type": "string" },
+			{ "key": "category", "field": "category", "type": "string" },
+			{ "key": "reason", "field": "reason", "type": "string" },
+			{ "key": "reference", "field": "reference", "type": "string" }
 		],
 		"200": {
 			"status": 200,

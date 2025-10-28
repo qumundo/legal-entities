@@ -1,6 +1,6 @@
 {
   "name": "@qumundo/legal-entities",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Legal entity information and reference data including Legal Entity Identifier (LEI), LEI-reference data (Who is who?), LEI-relationship data (Who owns whom?), LEI-mapping data (LEI-BIC, LEI-MIC, LEI-ISIN) and LEI-meta data.",
   "homepage": "https://github.com/qumundo/legal-entities",
   "author": {

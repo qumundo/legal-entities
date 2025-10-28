@@ -1,0 +1,861 @@
+{
+	"lei/search?": {
+		"items": [
+			{ "key": "lei", "field": "lei", "type": "string" },
+			{ "key": "legalName", "field": "legal_name", "type": "string" },
+			{ "key": "entityStatus", "field": "entity_status", "type": "string" },
+			{ "key": "legalCountry", "field": "legal_address_country", "type": "string" },
+			{ "key": "legalCity", "field": "legal_address_city", "type": "string" },
+			{ "key": "legalJurisdiction", "field": "legal_jurisdiction", "type": "string" },
+			{ "key": "entityCategory", "field": "entity_category", "type": "string" },
+			{ "key": "entitySubcategory", "field": "entity_subcategory", "type": "string" },
+			{ "key": "legalFormCode", "field": "entity_legal_form_code", "type": "string" },
+			{ "key": "legalForm", "field": "other_legal_form", "type": "string" },
+			{ "key": "minCreation", "field": "entity_creation_date", "type": "date" },
+			{ "key": "maxCreation", "field": "entity_creation_date", "type": "date" },
+			{ "key": "minInitial", "field": "initial_registration_date", "type": "date" },
+			{ "key": "maxInitial", "field": "initial_registration_date", "type": "date" },
+			{ "key": "minUpdated", "field": "last_updated_date", "type": "date" },
+			{ "key": "maxUpdated", "field": "last_updated_date", "type": "date" },
+			{ "key": "minRenewal", "field": "next_renewal_date", "type": "date" },
+			{ "key": "maxRenewal", "field": "next_renewal_date", "type": "date" },
+			{ "key": "registrationStatus", "field": "registration_status", "type": "string" },
+			{ "key": "lou", "field": "managing_lou", "type": "string" }
+		],
+		"200": {
+			"status": 200,
+	    "success": true,
+	    "record_count": 100,
+	    "total_records": 3031927,
+	    "page_number": 1,
+	    "page_size": 100,
+	    "total_pages": 30320,
+	    "more_pages": true,
+			"data": [
+				{
+          "id": 676202,
+          "lei": "5299000W0HB7SX4P4882",
+          "legal_name": "Mercedes-Benz AG",
+          "legal_name_lang": "de-DE",
+          "legal_address": "Mercedesstraße 120",
+          "legal_address_number": "",
+          "legal_address_number_in_building": "",
+          "legal_address_mail_routing": "",
+          "legal_address_line_1": "",
+          "legal_address_line_2": "",
+          "legal_address_line_3": "",
+          "legal_address_city": "Stuttgart",
+          "legal_address_region": "DE-BW",
+          "legal_address_country": "DE",
+          "legal_address_postal": "70372",
+          "legal_address_lang": "de-DE",
+          "hq_address": "Mercedesstraße 120",
+          "hq_address_number": "",
+          "hq_address_number_in_building": "",
+          "hq_address_mail_routing": "",
+          "hq_address_line_1": "",
+          "hq_address_line_2": "",
+          "hq_address_line_3": "",
+          "hq_address_city": "Stuttgart",
+          "hq_address_region": "DE-BW",
+          "hq_address_country": "DE",
+          "hq_address_postal": "70372",
+          "hq_address_lang": "de-DE",
+          "registration_authority_id": "RA000351",
+          "other_registration_authority_id": "",
+          "registration_authority_entity_id": "HRB 762873",
+          "legal_jurisdiction": "DE",
+          "entity_category": "GENERAL",
+          "entity_subcategory": "",
+          "entity_legal_form_code": "6QQB",
+          "other_legal_form": "",
+          "entity_status": "ACTIVE",
+          "entity_creation_date": "2017-11-16T23:00:00.000Z",
+          "initial_registration_date": "2018-09-27T09:18:19.000Z",
+          "last_updated_date": "2024-08-21T10:08:04.000Z",
+          "registration_status": "ISSUED",
+          "next_renewal_date": "2025-09-27T09:18:19.000Z",
+          "managing_lou": "5299000J2N45DDNE4Y28",
+          "validation_sources": "FULLY_CORROBORATED",
+          "validation_authority_id": "RA000351",
+          "other_validation_authority_id": "",
+          "validation_authority_entity_id": "HRB 762873"
+        },
+				{
+          "id": 865594,
+          "lei": "851WYGNLUQLFZBSYGB56",
+          "legal_name": "COMMERZBANK Aktiengesellschaft",
+          "legal_name_lang": "de",
+          "legal_address": "Kaiserstraße 16",
+          "legal_address_number": "",
+          "legal_address_number_in_building": "",
+          "legal_address_mail_routing": "",
+          "legal_address_line_1": "",
+          "legal_address_line_2": "",
+          "legal_address_line_3": "",
+          "legal_address_city": "Frankfurt am Main",
+          "legal_address_region": "DE-HE",
+          "legal_address_country": "DE",
+          "legal_address_postal": "60311",
+          "legal_address_lang": "de",
+          "hq_address": "Kaiserstraße 16",
+          "hq_address_number": "",
+          "hq_address_number_in_building": "",
+          "hq_address_mail_routing": "",
+          "hq_address_line_1": "",
+          "hq_address_line_2": "",
+          "hq_address_line_3": "",
+          "hq_address_city": "Frankfurt am Main",
+          "hq_address_region": "DE-HE",
+          "hq_address_country": "DE",
+          "hq_address_postal": "60311",
+          "hq_address_lang": "de",
+          "registration_authority_id": "RA000242",
+          "other_registration_authority_id": "",
+          "registration_authority_entity_id": "HRB 32000",
+          "legal_jurisdiction": "DE",
+          "entity_category": "GENERAL",
+          "entity_subcategory": "",
+          "entity_legal_form_code": "6QQB",
+          "other_legal_form": "",
+          "entity_status": "ACTIVE",
+          "entity_creation_date": "1952-10-16T23:00:00.000Z",
+          "initial_registration_date": "2012-06-06T13:54:00.000Z",
+          "last_updated_date": "2025-04-03T11:09:13.000Z",
+          "registration_status": "ISSUED",
+          "next_renewal_date": "2026-04-24T13:33:51.000Z",
+          "managing_lou": "5299000J2N45DDNE4Y28",
+          "validation_sources": "FULLY_CORROBORATED",
+          "validation_authority_id": "RA000242",
+          "other_validation_authority_id": "",
+          "validation_authority_entity_id": "HRB 32000"
+        },
+				{}
+			]
+		}
+	},
+	"lei/search?db=entityName": {
+		"items": [
+			{ "key": "lei", "field": "lei", "type": "string" },
+			{ "key": "entityName", "field": "entity_name", "type": "string" },
+			{ "key": "lang", "field": "lang", "type": "string" },
+			{ "key": "type", "field": "type", "type": "string" }
+		],
+		"200": {
+			"status": 200,
+	    "success": true,
+	    "record_count": 100,
+	    "total_records": 406090,
+	    "page_number": 1,
+	    "page_size": 100,
+	    "total_pages": 4061,
+	    "more_pages": true,
+			"data": [
+				{
+          "id": 1,
+          "lei": "029200711C4S4CB2E982",
+          "entity_name": "SEPLAT PETROLEUM DEVELOPMENT COMPANY PLC",
+          "lang": "en",
+          "type": "TRADING_OR_OPERATING_NAME"
+        },
+        {
+          "id": 2,
+          "lei": "0292003540H0S4VA7A50",
+          "entity_name": "FBNQUEST ASSET MANAGEMENT LIMITED",
+          "lang": "en",
+          "type": "TRADING_OR_OPERATING_NAME"
+        },
+				{}
+			]
+		}
+	},
+	"lei/search?db=entityNameLang": {
+		"items": [
+			{ "key": "lei", "field": "lei", "type": "string" },
+			{ "key": "entityName", "field": "entity_name", "type": "string" },
+			{ "key": "lang", "field": "lang", "type": "string" },
+			{ "key": "type", "field": "type", "type": "string" }
+		],
+		"200": {
+			"status": 200,
+	    "success": true,
+	    "record_count": 100,
+	    "total_records": 140187,
+	    "page_number": 1,
+	    "page_size": 100,
+	    "total_pages": 1402,
+	    "more_pages": true,
+			"data": [
+				{
+          "id": 1,
+          "lei": "097900BEF50000000569",
+          "entity_name": "Prva stavebna sporitelna, a. s.",
+          "lang": "sk",
+          "type": "AUTO_ASCII_TRANSLITERATED_LEGAL_NAME"
+        },
+        {
+          "id": 2,
+          "lei": "097900BEFH0000000217",
+          "entity_name": "Centralny depozitar cennych papierov SR, a.s.",
+          "lang": "sk",
+          "type": "AUTO_ASCII_TRANSLITERATED_LEGAL_NAME"
+        },
+				{}
+			]
+		}
+	},
+	"lei/search?db=successor": {
+		"items": [
+			{ "key": "lei", "field": "lei", "type": "string" },
+			{ "key": "leiSuccessor", "field": "lei_successor", "type": "string" },
+			{ "key": "entityName", "field": "entity_name", "type": "string" }
+		],
+		"200": {
+			"status": 200,
+	    "success": true,
+	    "record_count": 100,
+	    "total_records": 43797,
+	    "page_number": 1,
+	    "page_size": 100,
+	    "total_pages": 438,
+	    "more_pages": true,
+			"data": [
+				{
+          "id": 1,
+          "lei": "029200098C3K8BI2D551",
+          "lei_successor": "549300NIVXF92ZIOVW61",
+          "entity_name": ""
+        },
+        {
+          "id": 2,
+          "lei": "029200720E3M3A4D6D01",
+          "lei_successor": "0292003440E3M3A4D637",
+          "entity_name": ""
+        },
+				{}
+			]
+		}
+	},
+	"lei/search?db=events": {
+		"items": [
+			{ "key": "lei", "field": "lei", "type": "string" },
+			{ "key": "eventId", "field": "event_id", "type": "string" },
+			{ "key": "eventType", "field": "event_type", "type": "string" },
+			{ "key": "minEffective", "field": "effective_date", "type": "date" },
+			{ "key": "maxEffective", "field": "effective_date", "type": "date" },
+			{ "key": "minRecorded", "field": "recorded_date", "type": "date" },
+			{ "key": "maxRecorded", "field": "recorded_date", "type": "date" },
+			{ "key": "validationDocuments", "field": "validation_documents", "type": "string" },
+			{ "key": "validationReference", "field": "validation_reference", "type": "string" },
+			{ "key": "groupType", "field": "group_type", "type": "string" },
+			{ "key": "eventStatus", "field": "event_status", "type": "string" },
+			{ "key": "groupId", "field": "group_id", "type": "string" },
+			{ "key": "groupSequenceNo", "field": "group_sequence_no", "type": "string" }
+		],
+		"200": {
+			"status": 200,
+	    "success": true,
+	    "record_count": 100,
+	    "total_records": 922384,
+	    "page_number": 1,
+	    "page_size": 100,
+	    "total_pages": 9224,
+	    "more_pages": true,
+			"data": [
+				{
+          "id": 1,
+          "lei": "029200738G7T8AI6H992",
+          "event_id": "1",
+          "event_type": "MERGERS_AND_ACQUISITIONS",
+          "effective_date": "2020-04-17T09:33:58.000Z",
+          "recorded_date": "2020-04-21T08:33:58.000Z",
+          "validation_documents": "SUPPORTING_DOCUMENTS",
+          "validation_reference": "",
+          "group_type": "STANDALONE",
+          "event_status": "COMPLETED",
+          "group_id": "",
+          "group_sequence_no": ""
+        },
+        {
+          "id": 2,
+          "lei": "097900BEGK0000000311",
+          "event_id": "1",
+          "event_type": "DISSOLUTION",
+          "effective_date": "2023-12-21T07:00:00.000Z",
+          "recorded_date": "2024-03-11T07:00:00.000Z",
+          "validation_documents": "SUPPORTING_DOCUMENTS",
+          "validation_reference": "",
+          "group_type": "STANDALONE",
+          "event_status": "COMPLETED",
+          "group_id": "",
+          "group_sequence_no": ""
+        },
+				{}
+			]
+		}
+	},
+	"lei/search?db=affectedFields": {
+		"items": [
+			{ "key": "lei", "field": "lei", "type": "string" },
+			{ "key": "eventId", "field": "event_id", "type": "string" },
+			{ "key": "affectedField", "field": "affected_field", "type": "string" },
+			{ "key": "xpath", "field": "xpath", "type": "string" }
+		],
+		"200": {
+			"status": 200,
+	    "success": true,
+	    "record_count": 100,
+	    "total_records": 38965,
+	    "page_number": 1,
+	    "page_size": 100,
+	    "total_pages": 390,
+	    "more_pages": true,
+			"data": [
+				{
+          "id": 1,
+          "lei": "029200738G7T8AI6H992",
+          "event_id": "1",
+          "affected_field": "029200328C3N9YI2D660",
+          "xpath": "/lei:LEIData/lei:LEIRecords/lei:LEIRecord/lei:Entity/lei:SuccessorEntity/lei:SuccessorLEI"
+        },
+        {
+          "id": 2,
+          "lei": "097900BEH60000001674",
+          "event_id": "1",
+          "affected_field": "097900BFK40000037244",
+          "xpath": "/lei:LEIData/lei:LEIRecords/lei:LEIRecord/lei:Entity/lei:SuccessorEntity/lei:SuccessorLEI"
+        },
+				{}
+			]
+		}
+	},
+	"lei/rr/search?": {
+		"items": [
+			{ "key": "startNode", "field": "start_node", "type": "string" },
+			{ "key": "startNodeType", "field": "start_node_type", "type": "string" },
+			{ "key": "endNode", "field": "end_node", "type": "string" },
+			{ "key": "endNodeType", "field": "end_node_type", "type": "string" },
+			{ "key": "relationshipType", "field": "relationship_type", "type": "string" },
+			{ "key": "relationshipStatus", "field": "relationship_status", "type": "string" },
+			{ "key": "minInitial", "field": "initial_registration_date", "type": "date" },
+			{ "key": "maxInitial", "field": "initial_registration_date", "type": "date" },
+			{ "key": "minUpdate", "field": "last_update_date", "type": "date" },
+			{ "key": "maxUpdate", "field": "last_update_date", "type": "date" },
+			{ "key": "registrationStatus", "field": "registration_status", "type": "string" },
+			{ "key": "minRenewal", "field": "next_renewal_date", "type": "date" },
+			{ "key": "maxRenewal", "field": "next_renewal_date", "type": "date" },
+			{ "key": "lou", "field": "managing_lou", "type": "string" },
+			{ "key": "validationSources", "field": "validation_sources", "type": "string" },
+			{ "key": "validationDocuments", "field": "validation_documents", "type": "string" },
+			{ "key": "validationReference", "field": "validation_reference", "type": "string" }
+		],
+		"200": {
+			"status": 200,
+	    "success": true,
+	    "record_count": 100,
+	    "total_records": 594618,
+	    "page_number": 1,
+	    "page_size": 100,
+	    "total_pages": 5947,
+	    "more_pages": true,
+			"data": [
+				{
+          "id": 1,
+          "start_node": "029200396H3K1YG7D555",
+          "start_node_type": "LEI",
+          "end_node": "029200388A7S7Z5I0H57",
+          "end_node_type": "LEI",
+          "relationship_type": "IS_DIRECTLY_CONSOLIDATED_BY",
+          "relationship_status": "ACTIVE",
+          "initial_registration_date": "2014-11-05T23:00:00.000Z",
+          "last_update_date": "2024-11-05T11:34:07.000Z",
+          "registration_status": "PUBLISHED",
+          "next_renewal_date": "2025-11-05T15:00:00.000Z",
+          "managing_lou": "029200067A7K6CH0H586",
+          "validation_sources": "FULLY_CORROBORATED",
+          "validation_documents": "SUPPORTING_DOCUMENTS",
+          "validation_reference": "www.stanbicibtc.com"
+        },
+        {
+          "id": 2,
+          "start_node": "029200396H3K1YG7D555",
+          "start_node_type": "LEI",
+          "end_node": "029200388A7S7Z5I0H57",
+          "end_node_type": "LEI",
+          "relationship_type": "IS_ULTIMATELY_CONSOLIDATED_BY",
+          "relationship_status": "ACTIVE",
+          "initial_registration_date": "2014-11-05T23:00:00.000Z",
+          "last_update_date": "2024-11-05T11:34:07.000Z",
+          "registration_status": "PUBLISHED",
+          "next_renewal_date": "2025-11-05T15:00:00.000Z",
+          "managing_lou": "029200067A7K6CH0H586",
+          "validation_sources": "FULLY_CORROBORATED",
+          "validation_documents": "SUPPORTING_DOCUMENTS",
+          "validation_reference": "www.stanbicibtc.com"
+        },
+				{}
+			]
+		}
+	},
+	"lei/rr/search?db=period": {
+		"items": [
+			{ "key": "startNode", "field": "lei_rr_period.start_node", "type": "string" },
+			{ "key": "endNode", "field": "lei_rr_period.end_node", "type": "string" },
+			{ "key": "minStart", "field": "lei_rr_period.start_date", "type": "date" },
+			{ "key": "maxStart", "field": "lei_rr_period.start_date", "type": "date" },
+			{ "key": "minEnd", "field": "lei_rr_period.end_date", "type": "date" },
+			{ "key": "maxEnd", "field": "lei_rr_period.end_date", "type": "date" },
+			{ "key": "periodType", "field": "lei_rr_period.period_type", "type": "string" }
+		],
+		"200": {
+			"status": 200,
+	    "success": true,
+	    "record_count": 100,
+	    "total_records": 1096132,
+	    "page_number": 1,
+	    "page_size": 100,
+	    "total_pages": 10962,
+	    "more_pages": true,
+			"data": [
+				{
+          "id": 1,
+          "start_node": "029200396H3K1YG7D555",
+          "end_node": "029200388A7S7Z5I0H57",
+          "start_date": "2016-12-31T23:00:00.000Z",
+          "end_date": "2017-12-30T23:00:00.000Z",
+          "period_type": "ACCOUNTING_PERIOD"
+        },
+        {
+          "id": 2,
+          "start_node": "029200396H3K1YG7D555",
+          "end_node": "029200388A7S7Z5I0H57",
+          "start_date": "2000-05-05T22:00:00.000Z",
+          "end_date": null,
+          "period_type": "RELATIONSHIP_PERIOD"
+        },
+				{}
+			]
+		}
+	},
+	"lei/rr/search?db=qualifier": {
+		"items": [
+			{ "key": "startNode", "field": "lei_rr_qualifier.start_node", "type": "string" },
+			{ "key": "endNode", "field": "lei_rr_qualifier.end_node", "type": "string" },
+			{ "key": "dimension", "field": "lei_rr_qualifier.dimension", "type": "string" },
+			{ "key": "category", "field": "lei_rr_qualifier.category", "type": "string" }
+		],
+		"200": {
+			"status": 200,
+	    "success": true,
+	    "record_count": 100,
+	    "total_records": 212081,
+	    "page_number": 1,
+	    "page_size": 100,
+	    "total_pages": 2121,
+	    "more_pages": true,
+			"data": [
+				{
+          "id": 1,
+          "start_node": "029200396H3K1YG7D555",
+          "end_node": "029200388A7S7Z5I0H57",
+          "dimension": "ACCOUNTING_STANDARD",
+          "category": "IFRS"
+        },
+				{}
+			]
+		}
+	},
+	"lei/rr/search?db=quantifier": {
+		"items": [
+			{ "key": "startNode", "field": "lei_rr_quantifier.start_node", "type": "string" },
+			{ "key": "endNode", "field": "lei_rr_quantifier.end_node", "type": "string" },
+			{ "key": "measurementMethod", "field": "lei_rr_quantifier.measurement_method", "type": "string" },
+			{ "key": "minAmount", "field": "lei_rr_quantifier.amount", "type": "number" },
+			{ "key": "maxAmount", "field": "lei_rr_quantifier.amount", "type": "number" },
+			{ "key": "unit", "field": "lei_rr_quantifier.unit", "type": "string" }
+		],
+		"200": {
+			"status": 200,
+	    "success": true,
+	    "record_count": 100,
+	    "total_records": 57392,
+	    "page_number": 1,
+	    "page_size": 100,
+	    "total_pages": 574,
+	    "more_pages": true,
+			"data": [
+				{
+          "id": 1,
+          "start_node": "029200396H3K1YG7D555",
+          "end_node": "029200388A7S7Z5I0H57",
+          "measurement_method": "ACCOUNTING_CONSOLIDATION",
+          "amount": "99.90",
+          "units": "PERCENTAGE"
+        },
+				{}
+			]
+		}
+	},
+	"lei/rr/search?db=repex": {
+		"items": [
+			{ "key": "lei", "field": "lei_repex.lei", "type": "string" },
+			{ "key": "category", "field": "lei_repex.category", "type": "string" },
+			{ "key": "reason", "field": "lei_repex.reason", "type": "string" },
+			{ "key": "reference", "field": "lei_repex.reference", "type": "string" }
+		],
+		"200": {
+			"status": 200,
+	    "success": true,
+	    "record_count": 100,
+	    "total_records": 5386299,
+	    "page_number": 1,
+	    "page_size": 100,
+	    "total_pages": 53863,
+	    "more_pages": true,
+			"data": [
+				{
+          "id": 1,
+          "lei": "029200013A5N6ZD0F605",
+          "category": "DIRECT_ACCOUNTING_CONSOLIDATION_PARENT",
+          "reason": "NO_KNOWN_PERSON",
+          "reference": ""
+        },
+        {
+          "id": 2,
+          "lei": "029200013A5N6ZD0F605",
+          "category": "ULTIMATE_ACCOUNTING_CONSOLIDATION_PARENT",
+          "reason": "NO_KNOWN_PERSON",
+          "reference": ""
+        },
+				{}
+			]
+		}
+	},
+	"lei/meta/search?db=authorities": {
+		"items": [
+			{ "key": "regAuthorityCode", "field": "reg_authority_code", "type": "string" },
+			{ "key": "country", "field": "country", "type": "string" },
+			{ "key": "countryCode", "field": "country_code", "type": "string" },
+			{ "key": "jurisdiction", "field": "jurisdiction", "type": "string" },
+			{ "key": "regNameInt", "field": "reg_name_int", "type": "string" },
+			{ "key": "regNameLocal", "field": "reg_name_local", "type": "string" },
+			{ "key": "regOrgNameInt", "field": "reg_org_name_int", "type": "string" },
+			{ "key": "regOrgNameLocal", "field": "reg_org_name_local", "type": "string" },
+			{ "key": "www", "field": "www", "type": "string" },
+			{ "key": "comments", "field": "comments", "type": "string" }
+		],
+		"200": {
+			"status": 200,
+	    "success": true,
+	    "record_count": 100,
+	    "total_records": 1114,
+	    "page_number": 1,
+	    "page_size": 100,
+	    "total_pages": 12,
+	    "more_pages": true,
+			"data": [
+				{
+          "id": 343,
+          "reg_authority_code": "RA000205",
+          "country": "Germany",
+          "country_code": "DE",
+          "jurisdiction": "Aschaffenburg",
+          "reg_name_int": "Commercial Register",
+          "reg_name_local": "Handelsregister",
+          "reg_org_name_int": "Local Court Aschaffenburg",
+          "reg_org_name_local": "Amtsgericht Aschaffenburg",
+          "www": "www.handelsregister.de",
+          "comments": ""
+        },
+        {
+          "id": 344,
+          "reg_authority_code": "RA000206",
+          "country": "Germany",
+          "country_code": "DE",
+          "jurisdiction": "Augsburg",
+          "reg_name_int": "Commercial Register",
+          "reg_name_local": "Handelsregister",
+          "reg_org_name_int": "Local Court Augsburg",
+          "reg_org_name_local": "Amtsgericht Augsburg",
+          "www": "www.handelsregister.de",
+          "comments": ""
+        },
+				{}
+			]
+		}
+	},
+	"lei/meta/search?db=elf": {
+		"items": [
+			{ "key": "elf", "field": "elf", "type": "string" },
+			{ "key": "country", "field": "country", "type": "string" },
+			{ "key": "countryCode", "field": "country_code", "type": "string" },
+			{ "key": "jurisdiction", "field": "jurisdiction", "type": "string" },
+			{ "key": "countrySub", "field": "country_sub", "type": "string" },
+			{ "key": "legalFormLocal", "field": "legal_form_local", "type": "string" },
+			{ "key": "lang", "field": "lang", "type": "string" },
+			{ "key": "langCode", "field": "lang_code", "type": "string" },
+			{ "key": "legalFormTrans", "field": "legal_form_trans", "type": "string" },
+			{ "key": "abbrLocal", "field": "abbr_local", "type": "string" },
+			{ "key": "abbrTrans", "field": "abbr_trans", "type": "string" },
+			{ "key": "minCreated", "field": "date_created", "type": "date" },
+			{ "key": "maxCreated", "field": "date_created", "type": "date" },
+			{ "key": "elfStatus", "field": "elf_status", "type": "string" },
+			{ "key": "modification", "field": "modification", "type": "string" },
+			{ "key": "minModification", "field": "modification_date", "type": "date" },
+			{ "key": "maxModification", "field": "modification_date", "type": "date" },
+			{ "key": "reason", "field": "reason", "type": "string" }
+		],
+		"200": {
+			"status": 200,
+	    "success": true,
+	    "record_count": 100,
+	    "total_records": 3819,
+	    "page_number": 1,
+	    "page_size": 100,
+	    "total_pages": 39,
+	    "more_pages": true,
+			"data": [
+				{
+					"id": 1367,
+					"elf": "6QQB",
+					"country": "Germany",
+					"country_code": "DE",
+					"jurisdiction": "",
+					"country_sub": "",
+					"legal_form_local": "Aktiengesellschaft",
+					"lang": "German",
+					"lang_code": "de",
+					"legal_form_trans": "Aktiengesellschaft",
+					"abbr_local": "AG",
+					"abbr_trans": "",
+					"date_created": "2017-11-30",
+					"elf_status": "ACTV",
+					"modification": "",
+					"modification_date": "",
+					"reason": ""
+				},
+				{
+          "id": 1371,
+          "elf": "8Z6G",
+          "country": "Germany",
+          "country_code": "DE",
+          "jurisdiction": "",
+          "country_sub": "",
+          "legal_form_local": "Kommanditgesellschaft",
+          "lang": "German",
+          "lang_code": "de",
+          "legal_form_trans": "Kommanditgesellschaft",
+          "abbr_local": "KG;GmbH & Co. KG;UG (haftungsbeschränkt) & Co. KG AG & Co. KG;KGaA & Co. KG;Stiftung & Co. KG",
+          "abbr_trans": "",
+          "date_created": "2017-11-30",
+          "elf_status": "ACTV",
+          "modification": "abbreviations added",
+          "modification_date": "2019-07-05",
+          "reason": "abbreviations added"
+        },
+				{}
+			]
+		}
+	},
+	"lei/meta/search?db=oor": {
+		"items": [
+			{ "key": "oor", "field": "oor", "type": "string" },
+			{ "key": "country", "field": "country", "type": "string" },
+			{ "key": "countryCode", "field": "country_code", "type": "string" },
+			{ "key": "jurisdiction", "field": "jurisdiction", "type": "string" },
+			{ "key": "countrySub", "field": "country_sub", "type": "string" },
+			{ "key": "legalFormLocal", "field": "legal_form_local", "type": "string" },
+			{ "key": "elf", "field": "elf", "type": "string" },
+			{ "key": "roleName", "field": "role_name", "type": "string" },
+			{ "key": "lang", "field": "lang", "type": "string" },
+			{ "key": "langCode", "field": "lang_code", "type": "string" },
+			{ "key": "oorTrans", "field": "oor_trans", "type": "string" },
+			{ "key": "abbrLocal", "field": "abbr_local", "type": "string" },
+			{ "key": "abbrTrans", "field": "abbr_trans", "type": "string" },
+			{ "key": "minCreated", "field": "date_created", "type": "date" },
+			{ "key": "maxCreated", "field": "date_created", "type": "date" },
+			{ "key": "oorStatus", "field": "oor_status", "type": "string" },
+			{ "key": "modification", "field": "modification", "type": "string" },
+			{ "key": "minModification", "field": "modification_date", "type": "date" },
+			{ "key": "maxModification", "field": "modification_date", "type": "date" },
+			{ "key": "reason", "field": "reason", "type": "string" },
+			{ "key": "regulation ", "field": "regulation", "type": "string" }
+		],
+		"200": {
+			"status": 200,
+	    "success": true,
+	    "record_count": 100,
+	    "total_records": 2409,
+	    "page_number": 1,
+	    "page_size": 100,
+	    "total_pages": 25,
+	    "more_pages": true,
+			"data": [
+				{
+          "id": 1,
+          "oor": "33LIQX",
+          "country": "Australia",
+          "country_code": "AU",
+          "jurisdiction": "",
+          "country_sub": "",
+          "legal_form_local": "Public Company limited by shares",
+          "elf": "R4KK",
+          "role_name": "Shareholder",
+          "lang": "English",
+          "lang_code": "en",
+          "oor_trans": "Shareholder",
+          "abbr_local": "",
+          "abbr_trans": "",
+          "date_created": "2023-06-28",
+          "oor_status": "ACTV",
+          "modification": "",
+          "modification_date": "",
+          "reason": "",
+          "regulation": "Corporations Act 2001 - S.256C"
+        },
+        {
+          "id": 2,
+          "oor": "3WNV8Z",
+          "country": "Australia",
+          "country_code": "AU",
+          "jurisdiction": "",
+          "country_sub": "",
+          "legal_form_local": "Public Company limited by shares",
+          "elf": "R4KK",
+          "role_name": "Company secretary",
+          "lang": "English",
+          "lang_code": "en",
+          "oor_trans": "Company secretary",
+          "abbr_local": "Co.Sec.",
+          "abbr_trans": "Co.Sec.",
+          "date_created": "2023-06-28",
+          "oor_status": "ACTV",
+          "modification": "",
+          "modification_date": "",
+          "reason": "",
+          "regulation": "Corporations Act 2001 - Ss.188, 204A"
+        },
+				{}
+			]
+		}
+	},
+	"lei/meta/search?db=jurisdiction": {
+		"items": [
+			{ "key": "country", "field": "country", "type": "string" },
+			{ "key": "countryCode", "field": "country_code", "type": "string" },
+			{ "key": "type", "field": "type", "type": "string" }
+		],
+		"200": {
+			"status": 200,
+	    "success": true,
+	    "record_count": 100,
+	    "total_records": 324,
+	    "page_number": 1,
+	    "page_size": 100,
+	    "total_pages": 4,
+	    "more_pages": true,
+			"data": [
+				{
+          "id": 96,
+          "country": "France",
+          "country_code": "FR",
+          "type": "COUNTRY_ONLY"
+        },
+				{
+          "id": 98,
+          "country": "United Kingdom of Great Britain and Northern Ireland",
+          "country_code": "GB",
+          "type": "COUNTRY_AND_SUBDIVISION"
+        },
+				{}
+			]
+		}
+	},
+	"lei/mapping/search?db=isin": {
+		"items": [
+			{ "key": "lei", "field": "lei", "type": "string" },
+			{ "key": "isin", "field": "isin", "type": "string" }
+		],
+		"200": {
+			"status": 200,
+	    "success": true,
+	    "record_count": 100,
+	    "total_records": 7258341,
+	    "page_number": 1,
+	    "page_size": 100,
+	    "total_pages": 72584,
+	    "more_pages": true,
+			"data": [
+				{
+          "id": 1,
+          "lei": "001GPB6A9XPE8XJICC14",
+          "isin": "US3158052262"
+        },
+        {
+          "id": 2,
+          "lei": "00EHHQ2ZHDCFXJCPCL46",
+          "isin": "US92204Q1031"
+        },
+				{}
+			]
+		}
+	},
+	"lei/mapping/search?db=bic": {
+		"items": [
+			{ "key": "lei", "field": "lei", "type": "string" },
+			{ "key": "bic", "field": "bic", "type": "string" }
+		],
+		"200": {
+			"status": 200,
+	    "success": true,
+	    "record_count": 100,
+	    "total_records": 38070,
+	    "page_number": 1,
+	    "page_size": 100,
+	    "total_pages": 381,
+	    "more_pages": true,
+			"data": [
+				{
+          "id": 1,
+          "lei": "01ERPZV3DOLNXY2MLB90",
+          "bic": "LBTCUS44XXX"
+        },
+        {
+          "id": 2,
+          "lei": "01KWVG908KE7RKPTNP46",
+          "bic": "HOMSUS6SXXX"
+        },
+				{}
+			]
+		}
+	},
+	"lei/mapping/search?db=mic": {
+		"items": [
+			{ "key": "lei", "field": "lei", "type": "string" },
+			{ "key": "mic", "field": "mic", "type": "string" }
+		],
+		"200": {
+			"status": 200,
+	    "success": true,
+	    "record_count": 100,
+	    "total_records": 995,
+	    "page_number": 1,
+	    "page_size": 100,
+	    "total_pages": 10,
+	    "more_pages": true,
+			"data": [
+				{
+          "id": 1,
+          "lei": "097900BFDY0000023584",
+          "mic": "SPXE"
+        },
+        {
+          "id": 2,
+          "lei": "097900BIIX0000168239",
+          "mic": "XBRA"
+        },
+				{}
+			]
+		}
+	}
+}

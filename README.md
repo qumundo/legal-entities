@@ -194,7 +194,7 @@ Object.keys(example) ===
 
 ## Filtering
 
-Filtering and customized requests can be built and accomplished by passing filter parameters (objects) to the .getData() instance like:
+Filtering and customized requests can be built and accomplished by passing filter parameters (objects) to the .getData() instance:
 
 ```javascript
 let items = [
@@ -206,7 +206,7 @@ let data = await LegalEntities.getData({ path: "lei/search?", items });
 
 The default filter syntax is LIKE: `=`.
 
-Filtering for an exact value (MATCH) attach and change the syntax (filter) like:
+Filtering for an exact value (MATCH) attach and change the syntax (filter):
 
 ```javascript
 let items = [
@@ -247,7 +247,7 @@ let items = [
 ];
 ```
 
-To change the operator (default is 'AND') when searching for multiple parameters, attach and change parameter operator in the .getData() instance like:
+To change the operator (default is 'AND') when searching for multiple parameters, attach and change parameter operator in the .getData() instance:
 
 ```javascript
 let items = [

@@ -41,7 +41,6 @@ let data = await LegalEntities.getData({ path: "lei/search?" });
 
 /*
 data.data[0] ===
-
 {
   "id": 676202,
   "lei": "5299000W0HB7SX4P4882",
@@ -91,7 +90,6 @@ data.data[0] ===
   "other_validation_authority_id": "",
   "validation_authority_entity_id": "HRB 762873"
 }
-
 */
 ```
 
@@ -103,7 +101,6 @@ let data = await LegalEntities.getData({ path: "lei/rr/search?" });
 
 /*
 data.data[0] ===
-
 {
   "id": 1,
   "start_node": "029200396H3K1YG7D555",
@@ -121,7 +118,6 @@ data.data[0] ===
   "validation_documents": "SUPPORTING_DOCUMENTS",
   "validation_reference": "www.stanbicibtc.com"
 }
-
 */
 ```
 
@@ -133,7 +129,6 @@ let data = await LegalEntities.getData({ path: "lei/meta/search?" });
 
 /*
 data.data[0] ===
-
 {
   "id": 343,
   "reg_authority_code": "RA000205",
@@ -147,7 +142,6 @@ data.data[0] ===
   "www": "www.handelsregister.de",
   "comments": ""
 }
-
 */
 ```
 
@@ -159,13 +153,11 @@ let data = await LegalEntities.getData({ path: "lei/mapping/search?" });
 
 /*
 data.data[0] ===
-
 {
   "id": 1,
   "lei": "001GPB6A9XPE8XJICC14",
   "isin": "US3158052262"
 }
-
 */
 ```
 
@@ -177,7 +169,6 @@ let example = await LegalEntities.getExample();
 
 /*
 Object.keys(example) ===
-
 [
   'lei/search?',
   'lei/search?db=entityName',
@@ -215,7 +206,7 @@ let data = await LegalEntities.getData({ path: "lei/search?", items });
 
 The default filter syntax is LIKE: `=`.
 
-### :arrow_right: Filtering for an exact value (MATCH) attach and change the syntax (filter) like:
+Filtering for an exact value (MATCH) attach and change the syntax (filter) like:
 
 ```javascript
 let items = [
@@ -223,7 +214,7 @@ let items = [
 ];
 ```
 
-### :arrow_right: If the search result should not contain a certain value, use a single equal and an exclamation =! sign:
+If the search result should not contain a certain value, use a single equal and an exclamation =! sign:
 
 ```javascript
 let items = [
@@ -231,7 +222,7 @@ let items = [
 ];
 ```
 
-### :arrow_right: When filtering for multiple values of a parameter, use comma separation:
+When filtering for multiple values of a parameter, use comma separation:
 
 ```javascript
 let items = [
@@ -239,7 +230,7 @@ let items = [
 ];
 ```
 
-### :arrow_right: To change the operator (default is 'OR') when searching for multiple values of a parameter, attach and change the parameter 'operator' of an object:
+To change the operator (default is 'OR') when searching for multiple values of a parameter, attach and change the parameter 'operator' of an object:
 
 ```javascript
 let items = [
@@ -247,7 +238,7 @@ let items = [
 ];
 ```
 
-### :arrow_right: When filtering for multiple parameter add another object key:
+When filtering for multiple parameter add another object key:
 
 ```javascript
 let items = [
@@ -256,7 +247,7 @@ let items = [
 ];
 ```
 
-### :arrow_right: To change the operator (default is 'AND') when searching for multiple parameters, attach and change parameter operator in the .getData() instance like:
+To change the operator (default is 'AND') when searching for multiple parameters, attach and change parameter operator in the .getData() instance like:
 
 ```javascript
 let items = [
@@ -282,7 +273,9 @@ let items = [
 let data = await LegalEntities.getData({ path: "lei/search?", items });
 ```
 
-### :arrow_right: Get an overview of all filter parameter (key) for a specific database (path) available call the .getExample() instance with the path:
+## Filter Keys and Example Responses
+
+Get an overview of all filter parameter (key) for a specific database (path) available call the .getExample() instance with the path:
 
 ```javascript
 
@@ -314,7 +307,7 @@ let example = await LegalEntities.getExample({ path: "lei/search?" });
 */
 ```
 
-### :arrow_right: Get an example response for a specific database (path) available:
+Get an example response for a specific database (path) available:
 
 ```javascript
 
